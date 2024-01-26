@@ -32,9 +32,9 @@
   width: 60%;
 }
 
-.note-status {
+.note-status ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   color: var(--text-400);
   margin-bottom: 2rem;
 }
