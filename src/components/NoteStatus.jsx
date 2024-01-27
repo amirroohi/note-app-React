@@ -1,6 +1,9 @@
+import { useNotes } from "../context/NotesContext";
 import Message from "./Message";
 
-function NoteStatus({ notes }) {
+function NoteStatus() {
+  const notes = useNotes();
+
   // derived states
   const allNotes = notes.length;
 
